@@ -1,0 +1,4 @@
+export const FETCH_TICKETS = "FETCH_TICKETS";
+export const ADD_FILTER = "ADD_FILTER";
+export const REMOVE_FILTER = "REMOVE_FILTER";
+export const SET_IS_CHEEP_FILTER = "SET_IS_CHEEP_FILTER";

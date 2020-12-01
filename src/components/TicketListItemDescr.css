@@ -1,0 +1,15 @@
+.top {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #a0b0b9;
+  font-size: 12px;
+}
+
+.bottom {
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+.ticket-item-d-container {
+  margin:  5px 0;
+}

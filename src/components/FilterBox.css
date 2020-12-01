@@ -1,0 +1,27 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 0.45rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  height: fit-content;
+}
+
+.filter-container > * {
+  padding: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container span {
+  text-align: left;
+}
+
+p {
+  height: 50px;
+}

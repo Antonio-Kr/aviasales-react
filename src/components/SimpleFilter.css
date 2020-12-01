@@ -1,0 +1,24 @@
+.sf-container {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  height: 50px;
+  border-radius: 0.45rem;
+  background-color: white;
+}
+
+.sf-container > div {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sf-container > div.selected {
+  background-color: #2196f3;
+  color: white;
+}
