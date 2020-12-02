@@ -2,10 +2,8 @@ import { ADD_FILTER, FETCH_TICKETS, REMOVE_FILTER, SET_IS_CHEEP_FILTER } from ".
 
 export function fetchTickets() {
   return async (dispatch) => {
-    const response = await fetch("https://front-test.beta.aviasales.ru/search");
-    const { searchId } = await response.json();
     const tickets = await fetch(
-      `https://front-test.beta.aviasales.ru/tickets?searchId=${searchId}`
+      `https://e7i301syc4.execute-api.eu-central-1.amazonaws.com/dev/tickets`
     );
     dispatch({ type: FETCH_TICKETS, payload: await tickets.json() });
   };
